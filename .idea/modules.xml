@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sso.iml" filepath="$PROJECT_DIR$/sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-api/sso-api.iml" filepath="$PROJECT_DIR$/sso-api/sso-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-core/sso-core.iml" filepath="$PROJECT_DIR$/sso-core/sso-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssop-parent/sso-parent.iml" filepath="$PROJECT_DIR$/ssop-parent/sso-parent.iml" />
+    </modules>
+  </component>
+</project>
