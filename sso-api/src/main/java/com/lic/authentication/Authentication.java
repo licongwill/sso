@@ -1,5 +1,6 @@
 package com.lic.authentication;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.lic.authentication.principal.Principal;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2020/10/17 15:29
  */
+@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS)
 public interface Authentication extends Serializable {
     /**
      * 获取认证主体
@@ -58,4 +60,10 @@ public interface Authentication extends Serializable {
      * @param authentication
      */
     void update(Authentication authentication);
+
+    /**
+     * 更新传入的authtication对象
+     * @param authentication
+     */
+    void updateAll(Authentication authentication);
 }
