@@ -24,6 +24,8 @@
         <com-google-guava.version>19.0</com-google-guava.version>
         <jackson.version>2.9.9</jackson.version>
         <spring.version>5.2.9.RELEASE</spring.version>
+        <self4j.version>1.7.25</self4j.version>
+        <lombok.version>1.18.0</lombok.version>
     </properties>
 
     <dependencies>
@@ -56,6 +58,16 @@
             <version>${spring.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${self4j.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
     </dependencies>
 </project>

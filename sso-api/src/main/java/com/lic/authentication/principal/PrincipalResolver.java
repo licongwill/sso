@@ -1,7 +1,10 @@
 package com.lic.authentication.principal;
 
 
+import com.lic.authentication.AuthenticationHandler;
 import com.lic.authentication.Credential;
+
+import java.util.Optional;
 
 /**
  * TODO
@@ -16,8 +19,15 @@ public interface PrincipalResolver {
      * @param credential
      * @return
      */
-    Principal resolve(Credential credential);
+    default Principal resolve(Credential credential){
+        return resolve(credential, Optional.empty(), Optional.empty());
+    }
 
+    default Principal resolve(final Credential credential, final Optional<AuthenticationHandler> handler) {
+        return resolve(credential, Optional.empty(), handler);
+    }
+
+    Principal resolve(Credential credential, Optional<Principal> principal, Optional<AuthenticationHandler> handler);
 
     /**
      * 是否支持当前credential
@@ -25,4 +35,7 @@ public interface PrincipalResolver {
      * @return
      */
     boolean supports(Credential credential);
-}
+
+    default String getName() {
+        return this.getClass().getSimpleName();
+    }}
