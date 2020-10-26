@@ -4,7 +4,6 @@ import com.lic.authentication.principal.Service;
 
 import java.io.Serializable;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
