@@ -72,7 +72,13 @@ public interface AuthenticationSystemSupport {
      */
     AuthenticationResult handleAndFinalizeSingleAuthenticationTransaction(Service service, Credential... credential) throws AuthenticationException;
 
-
+    /**
+     * 处理并完成authentication transaction
+     * @param service
+     * @param credentials
+     * @return
+     * @throws AuthenticationException
+     */
     default AuthenticationResult handleAndFinalizeSingleAuthenticationTransaction(final Service service,
                                                                                   final Collection<Credential> credentials) throws AuthenticationException {
         return handleAndFinalizeSingleAuthenticationTransaction(service, credentials.toArray(new Credential[credentials.size()]));

@@ -16,6 +16,10 @@ public interface ContextualAuthenticationPolicy<T> {
      */
     T getContext();
 
+    /**
+     * get code
+     * @return
+     */
     default Optional<String> getCode(){return Optional.empty();}
 
     /**
