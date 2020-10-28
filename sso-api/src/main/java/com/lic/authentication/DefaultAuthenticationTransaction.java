@@ -24,9 +24,18 @@ public class DefaultAuthenticationTransaction  implements AuthenticationTransact
 
     private final Collection<Credential> credentials;
 
+    public static DefaultAuthenticationTransaction of(final Service service,final Credential... credentials){
+        val credentialSet = sanitizeCredentials(credentials);
+        return new DefaultAuthenticationTransaction(service,credentialSet);
+    }
+
+    public static DefaultAuthenticationTransaction of(final Credential... credentials){
+        val credentialSet = sanitizeCredentials(credentials);
+        return new DefaultAuthenticationTransaction(null,credentialSet);
+    }
 
     /**
-     *
+     * 使 credentials 无害
      * @param credentials
      * @return
      */
@@ -38,13 +47,10 @@ public class DefaultAuthenticationTransaction  implements AuthenticationTransact
         return collect;
     }
 
-    @Override
-    public Service getService() {
-        return null;
-    }
+    public Optional<Credential> getPrimaryCredential(){return credentials.stream().findFirst();}
 
-    @Override
-    public Collection<Credential> getCredentials() {
-        return null;
-    };
+
+    public boolean hasCredentialOfType(final Class<? extends Credential> type){
+        return credentials.stream().anyMatch(type::isInstance);
+    }
 }
