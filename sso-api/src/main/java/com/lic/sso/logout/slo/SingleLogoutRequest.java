@@ -44,4 +44,7 @@ public interface SingleLogoutRequest extends Serializable {
      * @return
      */
     URL getLogoutUrl();
+
+
+
 }
