@@ -1,9 +1,11 @@
 package com.lic.sso.authentication.adaptive;
 
 import com.lic.sso.authentication.AuthenticationException;
+import com.lic.sso.authentication.AuthenticationHandlerExecutionResult;
 import com.lic.sso.authentication.HandlerResult;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -13,21 +15,21 @@ import java.util.Map;
  */
 public class UnauthorizedAuthenticationException extends AuthenticationException {
 
-    public UnauthorizedAuthenticationException(final String message, final Map<String, Class<? extends Exception>> handlerErrors) {
-        super(message, handlerErrors, Collections.emptyMap());
+    public UnauthorizedAuthenticationException(final String message, final Map<String, Throwable> handlerErrors) {
+        super(message, handlerErrors, new HashMap<>(0));
     }
 
-    public UnauthorizedAuthenticationException(final Map<String, Class<? extends Exception>> handlerErrors) {
+    public UnauthorizedAuthenticationException(final Map<String, Throwable> handlerErrors) {
         super(handlerErrors);
     }
 
-    public UnauthorizedAuthenticationException(final Map<String, Class<? extends Exception>> handlerErrors, final Map<String, HandlerResult> handlerSuccesses) {
+    public UnauthorizedAuthenticationException(final Map<String, Throwable> handlerErrors, final Map<String, AuthenticationHandlerExecutionResult> handlerSuccesses) {
         super(handlerErrors, handlerSuccesses);
     }
 
     public UnauthorizedAuthenticationException(final String message,
-                                               final Map<String, Class<? extends Exception>> handlerErrors,
-                                               final Map<String, HandlerResult> handlerSuccesses) {
+                                               final Map<String, Throwable> handlerErrors,
+                                               final Map<String, AuthenticationHandlerExecutionResult> handlerSuccesses) {
         super(message, handlerErrors, handlerSuccesses);
     }
 }
