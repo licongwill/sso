@@ -1,5 +1,6 @@
 package com.lic.sso.services;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
@@ -7,6 +8,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * @version 1.0
  * @date 2020/10/29 20:50
  */
-@ResponseStatus(value = HttpStatus)
+@ResponseStatus(value = HttpStatus.FORBIDDEN)
 public class UnauthorizedServiceException {
 }
