@@ -127,5 +127,9 @@ public class AuditableContext {
     public Optional<TicketGrantingTicket> getTicketGrantingTicket(){return Optional.ofNullable(ticketGrantingTicket);}
 
 
+    /**
+     * get properties
+     * @return
+     */
     public Map<String,Object> getProperties(){return properties;}
 }
