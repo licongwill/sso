@@ -59,5 +59,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apereo.inspektr</groupId>
+            <artifactId>inspektr-audit</artifactId>
+        </dependency>
     </dependencies>
 </project>
