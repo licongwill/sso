@@ -20,7 +20,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @AllArgsConstructor
-public class CasEvent {
+public class SsoEvent {
     @JsonProperty("id")
     private long id = -1;
 
@@ -36,7 +36,7 @@ public class CasEvent {
     @JsonProperty("properties")
     private Map<String, String> properties = new HashMap<>();
 
-    public CasEvent() {
+    public SsoEvent() {
         this.id = System.currentTimeMillis();
     }
 

@@ -36,6 +36,8 @@ public interface Authentication extends Serializable {
     Map<String,Object> getAttributes();
 
 
+    void addAttribute(String name, Object value);
+
     /**
      * 获取凭证
      * @return
