@@ -12,7 +12,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/api/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-ticket/pom.xml" />
       </set>
     </option>
   </component>

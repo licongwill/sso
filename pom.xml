@@ -10,6 +10,7 @@
     <module>sso-server-core-api-authentication</module>
     <module>sso-server-core-api-validation</module>
     <module>sso-server-core-api-protocol</module>
+    <module>sso-server-core-api-ticket</module>
   </modules>
 
   <groupId>com.lic</groupId>

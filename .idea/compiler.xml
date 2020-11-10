@@ -11,6 +11,7 @@
         <module name="sso-server-core-api" />
         <module name="sso-server-core-api-authentication" />
         <module name="sso-server-core-api-protocol" />
+        <module name="sso-server-core-api-ticket" />
         <module name="sso-server-core-api-validation" />
       </profile>
     </annotationProcessing>
