@@ -1,82 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlanConfigurer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlanConfigurer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/BaseAuditableExecution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/sso-server-core-api-audit.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/AbstractSsoEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/CasEventRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/audit/SsoAuditActionContextRecordedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationPolicyFailureEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationPrincipalResolvedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionCompletedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionFailureEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionStartedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionSuccessfulEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/adaptive/SsoRiskBasedAuthenticationEvaluationStartedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/adaptive/SsoRiskBasedAuthenticationMitigationStartedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/adaptive/SsoRiskyAuthenticationDetectedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/adaptive/SsoRiskyAuthenticationMitigatedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/surrogate/SsoSurrogateAuthenticationFailureEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/surrogate/SsoSurrogateAuthenticationSuccessfulEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/config/SsoConfigurationCreatedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/config/SsoConfigurationDeletedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/config/SsoConfigurationModifiedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/dao/SsoEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/BaseSsoRegisteredServiceEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServiceDeletedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServiceExpiredEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServiceLoadedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServicePreDeleteEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServicePreSaveEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServiceSavedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServicesDeletedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServicesLoadedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/service/SsoRegisteredServicesRefreshEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoProxyGrantingTicketCreatedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoProxyTicketGrantedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoServiceTicketGrantedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoServiceTicketValidatedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoTicketGrantingTicketCreatedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoTicketGrantingTicketDestroyedEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-events/sso-server-core-api-events.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutPostProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutRequestStatus.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutMessage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutMessageCreator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/sso-server-core-api-logout.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationCredential.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/sso-server-core-api-mfa.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="修改CentralAuthenticationService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/Assertion.java" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/Assertion.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api/src/main/java/com/lic/CentralAuthenticationService.java" afterPath="$PROJECT_DIR$/sso-server-core-api/src/main/java/com/lic/CentralAuthenticationService.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" afterPath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -126,7 +52,7 @@
       <file leaf-file-name="MultifactorAuthenticationContextValidator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="279">
               <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
@@ -622,7 +548,7 @@
       <workItem from="1604990702590" duration="1678000" />
       <workItem from="1604994911397" duration="3045000" />
       <workItem from="1604997965876" duration="2945000" />
-      <workItem from="1605000920815" duration="4356000" />
+      <workItem from="1605000920815" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="add Authentication">
       <created>1602926109720</created>
@@ -806,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605001973016</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="修改CentralAuthenticationService">
+      <created>1605013191203</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605013191203</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87202000" />
+    <option name="totallyTimeSpent" value="87276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -826,7 +759,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25322393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39038688" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1322,7 +1255,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="279">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
