@@ -6,6 +6,9 @@
   <packaging>pom</packaging>
   <modules>
     <module>api</module>
+    <module>sso-server-core-api</module>
+    <module>sso-server-core-api-authentication</module>
+    <module>sso-server-core-api-validation</module>
   </modules>
 
   <groupId>com.lic</groupId>

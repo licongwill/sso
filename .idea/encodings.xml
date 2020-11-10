@@ -3,5 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-validation" charset="UTF-8" />
   </component>
 </project>

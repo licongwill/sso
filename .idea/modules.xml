@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-api.iml" filepath="$PROJECT_DIR$/sso-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/sso-server-core-api.iml" filepath="$PROJECT_DIR$/api/sso-server-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" filepath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" filepath="$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" filepath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />
     </modules>
   </component>
 </project>
