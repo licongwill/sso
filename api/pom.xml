@@ -13,7 +13,7 @@
     </parent>
 
 
-    <artifactId>sso-api</artifactId>
+    <artifactId>api</artifactId>
     <name>${project.artifactId}</name>
     <description>单点登录api</description>
 
