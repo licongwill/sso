@@ -1,12 +1,5 @@
 package com.lic;
 
-import com.lic.sso.authentication.AuthenticationException;
-import com.lic.sso.authentication.AuthenticationResult;
-import com.lic.sso.authentication.principal.Service;
-import com.lic.sso.logout.slo.SingleLogoutRequest;
-import com.lic.sso.ticket.proxy.ProxyGrantingTicket;
-import com.lic.sso.ticket.proxy.ProxyTicket;
-import com.lic.sso.validation.Assertion;
 import sun.security.krb5.internal.Ticket;
 
 import java.util.Collection;

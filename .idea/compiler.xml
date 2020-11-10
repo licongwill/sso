@@ -25,6 +25,7 @@
       <module name="sso-server-core-api" target="8" />
       <module name="sso-server-core-api-authentication" target="8" />
       <module name="sso-server-core-api-protocol" target="8" />
+      <module name="sso-server-core-api-ticket" target="8" />
       <module name="sso-server-core-api-validation" target="8" />
       <module name="ssoparent" target="8" />
     </bytecodeTargetLevel>

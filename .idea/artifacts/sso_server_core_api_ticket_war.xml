@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sso-server-core-api-ticket:war">
+    <output-path>$PROJECT_DIR$/sso-server-core-api-ticket/target</output-path>
+    <root id="archive" name="sso-server-core-api-ticket-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sso-server-core-api-ticket:war exploded" />
+    </root>
+  </artifact>
+</component>
