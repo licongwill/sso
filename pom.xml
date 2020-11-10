@@ -9,6 +9,7 @@
     <module>sso-server-core-api</module>
     <module>sso-server-core-api-authentication</module>
     <module>sso-server-core-api-validation</module>
+    <module>sso-server-core-api-protocol</module>
   </modules>
 
   <groupId>com.lic</groupId>
@@ -36,6 +37,7 @@
     <lombok.version>1.18.0</lombok.version>
     <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
     <inspektr-audit.version>1.8.4.GA</inspektr-audit.version>
+      <sso-server-core-api-protocol.version>1.0-SNAPSHOT</sso-server-core-api-protocol.version>
   </properties>
 
   <dependencies>
@@ -93,12 +95,12 @@
         <artifactId>spring-boot</artifactId>
         <version>${spring-boot.version}</version>
       </dependency>
+
       <dependency>
         <groupId>org.apereo.inspektr</groupId>
         <artifactId>inspektr-audit</artifactId>
         <version>${inspektr-audit.version}</version>
       </dependency>
-
     </dependencies>
   </dependencyManagement>
 

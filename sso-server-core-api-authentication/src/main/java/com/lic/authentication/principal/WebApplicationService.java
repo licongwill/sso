@@ -1,6 +1,7 @@
 package com.lic.authentication.principal;
 
-import com.lic.sso.protocol.ValidationResponseType;
+
+import com.lic.validation.ValidationResponseType;
 
 /**
  * TODO

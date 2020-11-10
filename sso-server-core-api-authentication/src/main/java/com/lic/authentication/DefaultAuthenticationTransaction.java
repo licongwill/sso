@@ -1,6 +1,8 @@
 package com.lic.authentication;
 
-import com.lic.sso.authentication.principal.Service;
+
+import com.lic.authentication.principal.Service;
+import lombok.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
