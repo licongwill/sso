@@ -4,7 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-audit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-events" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-logout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-mfa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-protocol" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />

@@ -12,8 +12,6 @@
     <artifactId>sso-server-core-api</artifactId>
 
     <name>sso-server-core-api</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,10 +21,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-ticket</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-validation</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-logout</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

@@ -5,7 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-api.iml" filepath="$PROJECT_DIR$/sso-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" filepath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-audit/sso-server-core-api-audit.iml" filepath="$PROJECT_DIR$/sso-server-core-api-audit/sso-server-core-api-audit.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" filepath="$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-events/sso-server-core-api-events.iml" filepath="$PROJECT_DIR$/sso-server-core-api-events/sso-server-core-api-events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-logout/sso-server-core-api-logout.iml" filepath="$PROJECT_DIR$/sso-server-core-api-logout/sso-server-core-api-logout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-mfa/sso-server-core-api-mfa.iml" filepath="$PROJECT_DIR$/sso-server-core-api-mfa/sso-server-core-api-mfa.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-protocol/sso-server-core-api-protocol.iml" filepath="$PROJECT_DIR$/sso-server-core-api-protocol/sso-server-core-api-protocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" filepath="$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" filepath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />

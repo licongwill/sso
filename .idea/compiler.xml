@@ -9,7 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="sso-server-core-api" />
+        <module name="sso-server-core-api-audit" />
         <module name="sso-server-core-api-authentication" />
+        <module name="sso-server-core-api-events" />
+        <module name="sso-server-core-api-logout" />
+        <module name="sso-server-core-api-mfa" />
         <module name="sso-server-core-api-protocol" />
         <module name="sso-server-core-api-ticket" />
         <module name="sso-server-core-api-validation" />
@@ -24,7 +28,11 @@
       <module name="sso-core" target="8" />
       <module name="sso-parent" target="8" />
       <module name="sso-server-core-api" target="8" />
+      <module name="sso-server-core-api-audit" target="8" />
       <module name="sso-server-core-api-authentication" target="8" />
+      <module name="sso-server-core-api-events" target="8" />
+      <module name="sso-server-core-api-logout" target="8" />
+      <module name="sso-server-core-api-mfa" target="8" />
       <module name="sso-server-core-api-protocol" target="8" />
       <module name="sso-server-core-api-ticket" target="8" />
       <module name="sso-server-core-api-validation" target="8" />

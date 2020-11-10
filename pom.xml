@@ -11,6 +11,10 @@
     <module>sso-server-core-api-validation</module>
     <module>sso-server-core-api-protocol</module>
     <module>sso-server-core-api-ticket</module>
+    <module>sso-server-core-api-logout</module>
+    <module>sso-server-core-api-events</module>
+    <module>sso-server-core-api-audit</module>
+    <module>sso-server-core-api-mfa</module>
   </modules>
 
   <groupId>com.lic</groupId>

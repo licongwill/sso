@@ -1,5 +1,16 @@
 package com.lic;
 
+import com.lic.authentication.AuthenticationException;
+import com.lic.authentication.AuthenticationResult;
+import com.lic.authentication.principal.Service;
+import com.lic.logout.slo.SingleLogoutRequest;
+import com.lic.ticket.AbstractTicketException;
+import com.lic.ticket.InvalidTicketException;
+import com.lic.ticket.ServiceTicket;
+import com.lic.ticket.TicketGrantingTicket;
+import com.lic.ticket.proxy.ProxyGrantingTicket;
+import com.lic.ticket.proxy.ProxyTicket;
+import com.lic.validation.Assertion;
 import sun.security.krb5.internal.Ticket;
 
 import java.util.Collection;
