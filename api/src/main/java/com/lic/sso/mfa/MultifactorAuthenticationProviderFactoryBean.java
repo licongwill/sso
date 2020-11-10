@@ -8,4 +8,6 @@ package com.lic.sso.mfa;
  * @date 2020/11/9 20:52
  */
 public interface MultifactorAuthenticationProviderFactoryBean<T extends MultifactorAuthenticationProvider> {
+
+
 }
