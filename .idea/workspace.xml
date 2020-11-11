@@ -2,38 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/authentication/ProtocolAttributeEncoder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ImmutableServiceRegistry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceAccessStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceAttributeFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceAttributeReleasePolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceCipherExecutor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceConsentPolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceContact.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceDelegatedAuthenticationPolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceExpirationPolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceLogoutType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceMultifactorPolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceProperty.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceProxyPolicy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServicePublicKey.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceUsernameAttributeProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ResourceBasedServiceRegistry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlanConfigurer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServicesManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedProxyingException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedServiceException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedServiceForPrincipalException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedSsoServiceException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-services/sso-server-core-api-services.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/api/api.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditPrincipalIdProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditTrailConstants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditTrailExecutionPlan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditTrailExecutionPlanConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditTrailRecordResolutionPlan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditTrailRecordResolutionPlanConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditableContext.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditableExecution.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/AuditableExecutionResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/audit/BaseAuditableExecution.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/Authentication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationAccountStateHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationEventExecutionPlan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationEventExecutionPlanConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationHandlerExecutionResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationHandlerResolver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationMetaDataPopulator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationPasswordPolicyHandlingStrategy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationPostProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationPreProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationResultBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationServiceSelectionPlan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationServiceSelectionStrategy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationServiceSelectionStrategyConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationSystemSupport.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationTransaction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/AuthenticationTransactionManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/ContextualAuthenticationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/ContextualAuthenticationPolicyFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/Credential.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/CredentialMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/DefaultAuthenticationTransaction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/HandlerResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/MessageDescriptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/PrePostAuthenticationHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/PreventedException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/PrincipalElectionStrategy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/PrincipalException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/RememberMeCredential.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/RootCasException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/adaptive/AdaptiveAuthenticationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/adaptive/UnauthorizedAuthenticationException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/adaptive/geo/GeoLocationRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/adaptive/geo/GeoLocationResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/adaptive/geo/GeoLocationService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/handler/PrincipalNameTransformer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/PersistentIdGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/Principal.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/PrincipalAttributesRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/PrincipalFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/PrincipalResolver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/Response.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/ResponseBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/Service.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/ServiceFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/principal/WebApplicationService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/authentication/support/SsoAttributeEncoder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/core/CentralAuthenticationService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/AbstractSsoEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/CasEventRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/audit/SsoAuditActionContextRecordedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationPolicyFailureEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationPrincipalResolvedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationTransactionCompletedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationTransactionFailureEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationTransactionStartedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/SsoAuthenticationTransactionSuccessfulEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/adaptive/SsoRiskBasedAuthenticationEvaluationStartedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/adaptive/SsoRiskBasedAuthenticationMitigationStartedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/adaptive/SsoRiskyAuthenticationDetectedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/adaptive/SsoRiskyAuthenticationMitigatedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/surrogate/SsoSurrogateAuthenticationFailureEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/authentication/surrogate/SsoSurrogateAuthenticationSuccessfulEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/config/SsoConfigurationCreatedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/config/SsoConfigurationDeletedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/config/SsoConfigurationModifiedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/dao/SsoEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/BaseSsoRegisteredServiceEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServiceDeletedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServiceExpiredEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServiceLoadedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServicePreDeleteEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServicePreSaveEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServiceSavedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServicesDeletedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServicesLoadedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/service/SsoRegisteredServicesRefreshEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoProxyGrantingTicketCreatedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoProxyTicketGrantedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoServiceTicketGrantedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoServiceTicketValidatedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoTicketGrantingTicketCreatedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/event/ticket/SsoTicketGrantingTicketDestroyedEvent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/logout/LogoutPostProcessor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/logout/LogoutRequestStatus.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/logout/slo/SingleLogoutMessage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/logout/slo/SingleLogoutMessageCreator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/logout/slo/SingleLogoutRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationContextValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationCredential.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationFailureModeEvaluator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationProviderBypass.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/mfa/MultifactorAuthenticationProviderFactoryBean.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/protocol/ValidationResponseType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ImmutableServiceRegistry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceAccessStrategy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceAttributeFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceAttributeReleasePolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceCipherExecutor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceConsentPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceContact.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceDelegatedAuthenticationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceExpirationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceLogoutType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceMultifactorPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceProperty.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceProxyPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServicePublicKey.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/RegisteredServiceUsernameAttributeProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ResourceBasedServiceRegistry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ServiceRegistry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ServiceRegistryExecutionPlan.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ServiceRegistryExecutionPlanConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/ServicesManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/UnauthorizedProxyingException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/UnauthorizedServiceException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/UnauthorizedServiceForPrincipalException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/UnauthorizedSsoServiceException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/services/authentication/ProtocolAttributeEncoder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/AbstractTicketException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/ExpirationPolicy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/InvalidTicketException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/ServiceTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/ServiceTicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/Ticket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketDefinition.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketDefinitionProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketGrantingTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketGrantingTicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TicketState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TransientSessionTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/TransientSessionTicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/UniqueTicketIdGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/UniqueTicketIdGeneratorConfigurer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/proxy/ProxyGrantingTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/proxy/ProxyGrantingTicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/proxy/ProxyHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/proxy/ProxyTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/proxy/ProxyTicketFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/registry/TicketRegistry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/registry/TicketRegistryCleaner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/registry/TicketRegistrySupport.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/ticket/registry/support/LockingStrategy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/lic/sso/validation/Assertion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/lic/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/sso-api.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/sso-server-core-api.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,18 +199,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ServiceRegistryExecutionPlan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlan.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="641">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceRegistryExecutionPlanConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlanConfigurer.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2746">
+              <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultifactorAuthenticationContextValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="89" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultifactorAuthenticationCredential.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationCredential.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultifactorAuthenticationFailureModeEvaluator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultifactorAuthenticationProviderFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
@@ -82,11 +261,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServicesManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServicesManager.java">
+      <file leaf-file-name="MultifactorAuthenticationProviderBypass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <caret line="22" column="90" lean-forward="false" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,54 +273,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisteredService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredService.java">
+      <file leaf-file-name="MultifactorAuthenticationProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisteredServiceExpirationPolicy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceExpirationPolicy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/io/Serializable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="168" column="17" lean-forward="false" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnauthorizedProxyingException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedProxyingException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnauthorizedServiceException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedServiceException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +295,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnauthorizedSsoServiceException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnauthorizedSsoServiceException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedSsoServiceException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -214,9 +353,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalFactory.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/AdaptiveAuthenticationPolicy.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/support/SsoAttributeEncoder.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalResolver.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationSystemSupport.java" />
@@ -226,7 +362,6 @@
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/DefaultAuthenticationTransaction.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/WebApplicationService.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-protocol/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-authentication/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-ticket/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/ServiceTicketFactory.java" />
@@ -256,8 +391,6 @@
         <option value="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/Assertion.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/mfa/MultifactorAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlanConfigurer.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/authentication/ProtocolAttributeEncoder.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-services/pom.xml" />
@@ -265,6 +398,12 @@
         <option value="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceAttributeReleasePolicy.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceUsernameAttributeProvider.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServicesManager.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -288,17 +427,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sso-server-core-api-ticket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sso-server-core-api-ticket" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -550,7 +679,7 @@
       <workItem from="1604994911397" duration="3045000" />
       <workItem from="1604997965876" duration="2945000" />
       <workItem from="1605000920815" duration="4688000" />
-      <workItem from="1605079041103" duration="567000" />
+      <workItem from="1605079041103" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="add Authentication">
       <created>1602926109720</created>
@@ -762,18 +891,32 @@
       <option name="project" value="LOCAL" />
       <updated>1605013395269</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="新增api-service">
+      <created>1605079627949</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079627949</updated>
+    </task>
+    <task id="LOCAL-00032" summary="修改api-mfa">
+      <created>1605079765847</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079765847</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88101000" />
+    <option name="totallyTimeSpent" value="88352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530043" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -857,7 +1000,9 @@
     <MESSAGE value="修改pom.xml" />
     <MESSAGE value="修改sso-server-core-api" />
     <MESSAGE value="修改CentralAuthenticationService" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改CentralAuthenticationService" />
+    <MESSAGE value="新增api-service" />
+    <MESSAGE value="修改api-mfa" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改api-mfa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -975,76 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationCredential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ImmutableServiceRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="76" column="19" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="76" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1054,7 +1133,7 @@
         <state relative-caret-position="510">
           <caret line="17" column="90" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="90" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1088,7 +1167,7 @@
         <state relative-caret-position="404">
           <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1170,7 +1249,7 @@
         <state relative-caret-position="284">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,7 +1291,7 @@
         <state relative-caret-position="264">
           <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1238,7 +1317,7 @@
         <state relative-caret-position="393">
           <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1271,6 +1350,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationContextValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="89" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="90" lean-forward="false" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2746">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding />
         </state>
       </provider>
