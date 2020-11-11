@@ -1,7 +1,6 @@
 package com.lic.authentication;
 
-import com.lic.sso.authentication.Authentication;
-import com.lic.sso.services.RegisteredService;
+import com.lic.services.RegisteredService;
 import org.springframework.core.Ordered;
 
 import javax.servlet.http.HttpServletRequest;

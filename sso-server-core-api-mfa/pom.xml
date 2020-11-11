@@ -31,6 +31,11 @@
             <artifactId>sso-server-core-api-authentication</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-services</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

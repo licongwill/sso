@@ -1,8 +1,7 @@
 package com.lic.authentication;
 
-import com.lic.sso.authentication.AuthenticationException;
-import com.lic.sso.services.RegisteredService;
-import com.lic.sso.services.RegisteredServiceMultifactorPolicy;
+import com.lic.services.RegisteredService;
+import com.lic.services.RegisteredServiceMultifactorPolicy;
 import org.springframework.core.Ordered;
 
 import java.io.Serializable;
