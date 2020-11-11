@@ -15,6 +15,7 @@
     <module>sso-server-core-api-events</module>
     <module>sso-server-core-api-audit</module>
     <module>sso-server-core-api-mfa</module>
+    <module>sso-server-core-api-services</module>
   </modules>
 
   <groupId>com.lic</groupId>

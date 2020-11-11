@@ -10,8 +10,7 @@
     <file url="file://$PROJECT_DIR$/sso-server-core-api-logout" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-mfa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-protocol" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-services" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-validation" charset="UTF-8" />
   </component>
