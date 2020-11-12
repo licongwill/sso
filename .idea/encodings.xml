@@ -11,7 +11,7 @@
     <file url="file://$PROJECT_DIR$/sso-server-core-api-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-protocol" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-services" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sso-server-core-api-thrrottle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-throttle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-validation" charset="UTF-8" />
   </component>

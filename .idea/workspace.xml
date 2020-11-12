@@ -2,54 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_5_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_5_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutExecutionPlan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutExecutionPlanConfigurer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutServiceLogoutUrlBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutServiceMessageHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutUrl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderResolver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderSelector.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTrigger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTriggerSelectionStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-monitor/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-monitor/src/main/java/com/lic/monitor/CacheStatistics.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/SsoProtocolConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/sso_server_core_api_thrrottle_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/sso_server_core_api_thrrottle_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-monitor/sso-server-core-api-monitor.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/sso-server-core-api-throttle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-audit/sso-server-core-api-audit.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/sso-server-core-api-audit.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-authentication/sso-server-core-api-authentication.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-events/sso-server-core-api-events.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-events/sso-server-core-api-events.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-logout/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutRequest.java" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutRequest.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-logout/sso-server-core-api-logout.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-logout/sso-server-core-api-logout.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-mfa/sso-server-core-api-mfa.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-mfa/sso-server-core-api-mfa.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-services/sso-server-core-api-services.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-services/sso-server-core-api-services.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" afterPath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/sso-server-core-api-configuration-model/target/" />
     <ignored path="$PROJECT_DIR$/sso-server-core-api-monitor/target/" />
     <ignored path="$PROJECT_DIR$/sso-server-core-api-thrrottle/target/" />
+    <ignored path="$PROJECT_DIR$/sso-server-core-api-throttle/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +49,7 @@
       <file leaf-file-name="MultifactorAuthenticationTrigger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTrigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="390">
               <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +61,7 @@
       <file leaf-file-name="MultifactorAuthenticationTriggerSelectionStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTriggerSelectionStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
+            <state relative-caret-position="510">
               <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +93,7 @@
       <file leaf-file-name="SsoProtocolConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/SsoProtocolConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4609">
+            <state relative-caret-position="510">
               <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
@@ -135,7 +101,7 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
@@ -144,8 +110,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InMemoryThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
+      <file leaf-file-name="InMemoryThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
@@ -154,8 +120,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
+      <file leaf-file-name="ThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
@@ -167,8 +133,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="94" column="19" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="94" selection-end-column="19" />
+            <state relative-caret-position="540">
+              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -286,8 +252,8 @@
         <option value="$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/CasProtocolConstants.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/SsoProtocolConstants.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -444,10 +410,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,60 +423,25 @@
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-services" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-services" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-thrrottle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-thrrottle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-thrrottle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-thrrottle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -519,7 +449,7 @@
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-thrrottle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -529,6 +459,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -705,7 +636,8 @@
       <workItem from="1604997965876" duration="2945000" />
       <workItem from="1605000920815" duration="4688000" />
       <workItem from="1605079041103" duration="13620000" />
-      <workItem from="1605148443867" duration="2834000" />
+      <workItem from="1605148443867" duration="2990000" />
+      <workItem from="1605151904311" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="add Authentication">
       <created>1602926109720</created>
@@ -938,44 +870,51 @@
       <option name="project" value="LOCAL" />
       <updated>1605079876176</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="新增thrrottle">
+      <created>1605151317546</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605151317546</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103988000" />
+    <option name="totallyTimeSpent" value="104189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39038688" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34012875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34495708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39038688" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1035,7 +974,8 @@
     <MESSAGE value="修改CentralAuthenticationService" />
     <MESSAGE value="新增api-service" />
     <MESSAGE value="修改api-mfa" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改api-mfa" />
+    <MESSAGE value="新增thrrottle" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增thrrottle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,9 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,9 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,13 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,11 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,9 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6519">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1331">
           <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,15 +1172,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="390">
           <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1295,7 +1187,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTriggerSelectionStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="510">
           <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1329,21 +1221,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/SsoProtocolConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4609">
+        <state relative-caret-position="510">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="94" column="19" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="94" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
@@ -1351,18 +1235,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="540">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>

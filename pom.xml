@@ -16,7 +16,7 @@
     <module>sso-server-core-api-mfa</module>
     <module>sso-server-core-api-services</module>
     <module>sso-server-core-api-monitor</module>
-    <module>sso-server-core-api-thrrottle</module>
+    <module>sso-server-core-api-throttle</module>
   </modules>
 
   <groupId>com.lic</groupId>
