@@ -13,8 +13,10 @@
         <module name="sso-server-core-api-events" />
         <module name="sso-server-core-api-logout" />
         <module name="sso-server-core-api-mfa" />
+        <module name="sso-server-core-api-monitor" />
         <module name="sso-server-core-api-protocol" />
         <module name="sso-server-core-api-services" />
+        <module name="sso-server-core-api-thrrottle" />
         <module name="sso-server-core-api-ticket" />
         <module name="sso-server-core-api-validation" />
       </profile>
@@ -30,11 +32,14 @@
       <module name="sso-server-core-api" target="8" />
       <module name="sso-server-core-api-audit" target="8" />
       <module name="sso-server-core-api-authentication" target="8" />
+      <module name="sso-server-core-api-configuration-model" target="8" />
       <module name="sso-server-core-api-events" target="8" />
       <module name="sso-server-core-api-logout" target="8" />
       <module name="sso-server-core-api-mfa" target="8" />
+      <module name="sso-server-core-api-monitor" target="8" />
       <module name="sso-server-core-api-protocol" target="8" />
       <module name="sso-server-core-api-services" target="8" />
+      <module name="sso-server-core-api-thrrottle" target="8" />
       <module name="sso-server-core-api-ticket" target="8" />
       <module name="sso-server-core-api-validation" target="8" />
       <module name="ssoparent" target="8" />

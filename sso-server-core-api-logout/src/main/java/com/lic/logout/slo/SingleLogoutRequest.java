@@ -1,7 +1,7 @@
 package com.lic.logout.slo;
 
-import com.lic.sso.authentication.principal.WebApplicationService;
-import com.lic.sso.logout.LogoutRequestStatus;
+import com.lic.authentication.principal.WebApplicationService;
+import com.lic.logout.LogoutRequestStatus;
 
 import java.io.Serializable;
 import java.net.URL;

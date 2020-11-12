@@ -15,6 +15,8 @@
     <module>sso-server-core-api-audit</module>
     <module>sso-server-core-api-mfa</module>
     <module>sso-server-core-api-services</module>
+    <module>sso-server-core-api-monitor</module>
+    <module>sso-server-core-api-thrrottle</module>
   </modules>
 
   <groupId>com.lic</groupId>
@@ -41,7 +43,10 @@
     <lombok.version>1.18.0</lombok.version>
     <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
     <inspektr-audit.version>1.8.4.GA</inspektr-audit.version>
-      <sso-server-core-api-protocol.version>1.0-SNAPSHOT</sso-server-core-api-protocol.version>
+    <javaparser-core.version>3.8.1</javaparser-core.version>
+    <jackson-databind.version>2.9.9</jackson-databind.version>
+    <org.jooq.version>0.9.14</org.jooq.version>
+    <spring-webflow.version>2.5.1.RELEASE</spring-webflow.version>
   </properties>
 
   <dependencies>
@@ -54,6 +59,7 @@
   </dependencies>
 
   <dependencyManagement>
+
     <dependencies>
       <!--通用包-->
       <dependency>
@@ -105,7 +111,41 @@
         <artifactId>inspektr-audit</artifactId>
         <version>${inspektr-audit.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>com.github.javaparser</groupId>
+        <artifactId>javaparser-core</artifactId>
+        <version>${javaparser-core.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson-databind.version}</version>
+      </dependency>
+
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-configuration-metadata</artifactId>
+        <version>${spring-boot.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jooq</groupId>
+        <artifactId>jool</artifactId>
+        <version>${org.jooq.version}</version>
+      </dependency>
+
+
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>spring-webflow</artifactId>
+        <version>${spring-webflow.version}</version>
+      </dependency>
+
     </dependencies>
+
   </dependencyManagement>
 
   <build>
