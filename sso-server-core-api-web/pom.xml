@@ -9,11 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sso-server-core-api-validation</artifactId>
+    <artifactId>sso-server-core-api-web</artifactId>
 
-    <name>sso-server-core-api-validation</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <name>sso-server-core-api-web</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,12 +20,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.lic</groupId>
-            <artifactId>sso-server-core-api-authentication</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.lic</groupId>
             <artifactId>sso-server-core-api-services</artifactId>

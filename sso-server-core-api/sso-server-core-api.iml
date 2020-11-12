@@ -65,9 +65,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.4.RELEASE" level="project" />
     <orderEntry type="module" module-name="sso-server-core-api-protocol" />
     <orderEntry type="module" module-name="sso-server-core-api-validation" />
+    <orderEntry type="module" module-name="sso-server-core-api-services" />
     <orderEntry type="module" module-name="sso-server-core-api-logout" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.0" level="project" />
-    <orderEntry type="module" module-name="sso-server-core-api-services" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>

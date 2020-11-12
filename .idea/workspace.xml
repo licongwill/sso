@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/sso_server_core_api_thrrottle_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/sso_server_core_api_thrrottle_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-monitor/sso-server-core-api-monitor.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/sso-server-core-api-throttle.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/AuthenticationAttributeReleasePolicy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/RequestedContextValidator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizerConfigurer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizersExecutionPlan.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolValidationSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-web/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/extractcert/X509CertificateExtractor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/support/ArgumentExtractor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sso-server-core-api-web/sso-server-core-api-web.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" afterPath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" afterPath="$PROJECT_DIR$/sso-server-core-api/sso-server-core-api.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +43,7 @@
     <ignored path="$PROJECT_DIR$/sso-server-core-api-monitor/target/" />
     <ignored path="$PROJECT_DIR$/sso-server-core-api-thrrottle/target/" />
     <ignored path="$PROJECT_DIR$/sso-server-core-api-throttle/target/" />
+    <ignored path="$PROJECT_DIR$/sso-server-core-api-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,105 +53,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MultifactorAuthenticationTrigger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTrigger.java">
+      <file leaf-file-name="SsoProtocolAttributesRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultifactorAuthenticationTriggerSelectionStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTriggerSelectionStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-monitor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-monitor/src/main/java/com/lic/monitor/CacheStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="29" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SsoProtocolConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/SsoProtocolConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMemoryThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThrottledSubmissionHandlerInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="312">
               <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="SsoProtocolValidationSpecification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolValidationSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidationResponseType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/ValidationResponseType.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgumentExtractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/support/ArgumentExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="X509CertificateExtractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/extractcert/X509CertificateExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuditTrailManagementAspect.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/inspektr/inspektr-audit/1.8.4.GA/inspektr-audit-1.8.4.GA.jar!/org/apereo/inspektr/audit/AuditTrailManagementAspect.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pair.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/tuple/Pair.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+              <folding>
+                <marker date="1587626377608" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1587626377608" expanded="false" signature="154:287" ph="..." />
+                <marker date="1587626377608" expanded="true" signature="475:482" ph="{}" />
+                <marker date="1587626377608" expanded="false" signature="539:550" ph=" { " />
+                <marker date="1587626377608" expanded="false" signature="588:594" ph=" }" />
+                <marker date="1587626377608" expanded="false" signature="692:703" ph=" { " />
+                <marker date="1587626377608" expanded="false" signature="725:731" ph=" }" />
+                <marker date="1587626377608" expanded="false" signature="756:767" ph=" { " />
+                <marker date="1587626377608" expanded="false" signature="790:796" ph=" }" />
+                <marker date="1587626377608" expanded="true" signature="841:986" ph="{...}" />
+                <marker date="1587626377608" expanded="true" signature="1026:1347" ph="{...}" />
+                <marker date="1587626377608" expanded="true" signature="1375:1514" ph="{...}" />
+                <marker date="1587626377608" expanded="false" signature="1544:1555" ph=" { " />
+                <marker date="1587626377608" expanded="false" signature="1613:1619" ph=" }" />
+                <marker date="1587626377608" expanded="false" signature="1662:1673" ph=" { " />
+                <marker date="1587626377608" expanded="false" signature="1735:1741" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTicketValidationAuthorizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTicketValidationAuthorizerConfigurer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizerConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTicketValidationAuthorizersExecutionPlan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizersExecutionPlan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -203,13 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationFailureModeEvaluator.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderBypass.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/metadata/ConfigurationMetadataClassSourceLocator.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/support/RelaxedPropertyNames.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/metadata/ConfigurationMetadataPropertyCreator.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/metadata/ConfigurationMetadataUnitParser.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/metadata/ConfigurationMetadataHint.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/metadata/ConfigurationMetadataGenerator.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/pom.xml" />
@@ -254,6 +269,13 @@
         <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/AuthenticationAttributeReleasePolicy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolValidationSpecification.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-web/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/support/ArgumentExtractor.java" />
       </list>
     </option>
   </component>
@@ -423,36 +445,56 @@
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="extractcert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -463,21 +505,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/source/cas/api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="RegisteredServiceProperties&#9;PSI&#9;JAVA://com.lic.services.RegisteredServiceProperty.RegisteredServiceProperties&#10;URL&#9;PSI&#9;JAVA://java.net.URL&#10;DefaultAuthenticationTransaction&#9;PSI&#9;JAVA://com.lic.sso.authentication.DefaultAuthenticationTransaction&#10;AuthenticationPreProcessor&#9;FILE&#9;file://D:/lic/sso/sso-api/src/main/java/com/lic/authentication/AuthenticationPreProcessor.java&#10;AuthenticationPostProcessor&#9;PSI&#9;JAVA://com.lic.authentication.AuthenticationPostProcessor" />
+    <property name="SearchEverywhereHistoryKey" value="AuditTrailManagementAspect&#9;PSI&#9;JAVA://org.apereo.inspektr.audit.AuditTrailManagementAspect&#10;RegisteredServiceProperties&#9;PSI&#9;JAVA://com.lic.services.RegisteredServiceProperty.RegisteredServiceProperties&#10;URL&#9;PSI&#9;JAVA://java.net.URL&#10;DefaultAuthenticationTransaction&#9;PSI&#9;JAVA://com.lic.sso.authentication.DefaultAuthenticationTransaction&#10;AuthenticationPreProcessor&#9;FILE&#9;file://D:/lic/sso/sso-api/src/main/java/com/lic/authentication/AuthenticationPreProcessor.java&#10;AuthenticationPostProcessor&#9;PSI&#9;JAVA://com.lic.authentication.AuthenticationPostProcessor" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\lic\sso-api" />
-      <recent name="D:\lic\sso-api\sso-server-core-api-mfa" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lic" />
       <recent name="com.lic.sso.services" />
@@ -485,17 +523,21 @@
       <recent name="com.lic.sso" />
       <recent name="com.lic.authentication" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lic\sso-api\sso-server-core-api-web\src\main\java\com\lic" />
+      <recent name="D:\lic\sso-api\sso-server-core-api-validation\src\main\java\com\lic\validation" />
+      <recent name="D:\lic\sso-api\sso-server-core-api-thrrottle\src\main\java\com\lic\web\support" />
+      <recent name="D:\lic\sso-api\sso-server-core-api-protocol\src\main\java\com\lic\validation" />
+      <recent name="D:\lic\sso-api\sso-server-core-api-configuration-model\src\main\java\com\lic\configuration\support" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lic.authentication" />
       <recent name="com.lic.validation" />
       <recent name="com.lic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\lic\sso-api\sso-server-core-api-thrrottle\src\main\java\com\lic\web\support" />
-      <recent name="D:\lic\sso-api\sso-server-core-api-protocol\src\main\java\com\lic\validation" />
-      <recent name="D:\lic\sso-api\sso-server-core-api-configuration-model\src\main\java\com\lic\configuration\support" />
-      <recent name="D:\lic\sso-api\sso-server-core-api-configuration-model\src\main\java\com\lic\configuration" />
-      <recent name="D:\lic\sso-api\sso-server-core-api-configuration-model\src\main\java\com\lic\configuration\metadata" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\lic\sso-api" />
+      <recent name="D:\lic\sso-api\sso-server-core-api-mfa" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -637,7 +679,7 @@
       <workItem from="1605000920815" duration="4688000" />
       <workItem from="1605079041103" duration="13620000" />
       <workItem from="1605148443867" duration="2990000" />
-      <workItem from="1605151904311" duration="45000" />
+      <workItem from="1605151904311" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="add Authentication">
       <created>1602926109720</created>
@@ -877,44 +919,51 @@
       <option name="project" value="LOCAL" />
       <updated>1605151317546</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="修改InMemoryThrottled">
+      <created>1605151998235</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1605151998236</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104189000" />
+    <option name="totallyTimeSpent" value="106248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34495708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39038688" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21727468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39038688" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -940,11 +989,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34012875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21727468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -975,7 +1024,8 @@
     <MESSAGE value="新增api-service" />
     <MESSAGE value="修改api-mfa" />
     <MESSAGE value="新增thrrottle" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增thrrottle" />
+    <MESSAGE value="修改InMemoryThrottled" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改InMemoryThrottled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,25 +1034,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AdaptiveAuthenticationProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationAttributeReleaseProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationExceptionsProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationPolicyProperties.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/context/properties/NestedConfigurationProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/audit/AuditCouchbaseProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/audit/AuditCouchDbProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/audit/AuditJdbcProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/audit/AuditSlf4jLogProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/TimeBasedAuthenticationProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/CouchbasePrincipalAttributesProperties.java" />
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GroovyAuthenticationPolicyProperties.java" />
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GroovyPrincipalAttributesProperties.java" />
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GrouperPrincipalAttributesProperties.java" />
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/HttpClientProperties.java" />
@@ -1053,6 +1084,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,6 +1190,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1213,7 @@
         <state relative-caret-position="390">
           <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="77" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,7 +1223,7 @@
         <state relative-caret-position="510">
           <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1253,8 +1286,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/src/main/java/com/lic/web/support/ThrottledSubmissionHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="3">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/AuthenticationAttributeReleasePolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="158" lean-forward="false" selection-start-line="25" selection-start-column="141" selection-end-line="25" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/RequestedContextValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/tuple/Pair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <marker date="1587626377608" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1587626377608" expanded="false" signature="154:287" ph="..." />
+            <marker date="1587626377608" expanded="true" signature="475:482" ph="{}" />
+            <marker date="1587626377608" expanded="false" signature="539:550" ph=" { " />
+            <marker date="1587626377608" expanded="false" signature="588:594" ph=" }" />
+            <marker date="1587626377608" expanded="false" signature="692:703" ph=" { " />
+            <marker date="1587626377608" expanded="false" signature="725:731" ph=" }" />
+            <marker date="1587626377608" expanded="false" signature="756:767" ph=" { " />
+            <marker date="1587626377608" expanded="false" signature="790:796" ph=" }" />
+            <marker date="1587626377608" expanded="true" signature="841:986" ph="{...}" />
+            <marker date="1587626377608" expanded="true" signature="1026:1347" ph="{...}" />
+            <marker date="1587626377608" expanded="true" signature="1375:1514" ph="{...}" />
+            <marker date="1587626377608" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1587626377608" expanded="false" signature="1613:1619" ph=" }" />
+            <marker date="1587626377608" expanded="false" signature="1662:1673" ph=" { " />
+            <marker date="1587626377608" expanded="false" signature="1735:1741" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizerConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizersExecutionPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolValidationSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/support/ArgumentExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/extractcert/X509CertificateExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/inspektr/inspektr-audit/1.8.4.GA/inspektr-audit-1.8.4.GA.jar!/org/apereo/inspektr/audit/AuditTrailManagementAspect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="34" />
           <folding />
         </state>
       </provider>
