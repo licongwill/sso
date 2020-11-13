@@ -21,6 +21,7 @@
         <module name="sso-server-core-api-ticket" />
         <module name="sso-server-core-api-validation" />
         <module name="sso-server-core-api-web" />
+        <module name="sso-server-core-api-web-flow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +47,7 @@
       <module name="sso-server-core-api-ticket" target="8" />
       <module name="sso-server-core-api-validation" target="8" />
       <module name="sso-server-core-api-web" target="8" />
+      <module name="sso-server-core-api-web-flow" target="8" />
       <module name="ssoparent" target="8" />
     </bytecodeTargetLevel>
   </component>

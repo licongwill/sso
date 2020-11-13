@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" filepath="$PROJECT_DIR$/sso-server-core-api-ticket/sso-server-core-api-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" filepath="$PROJECT_DIR$/sso-server-core-api-validation/sso-server-core-api-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-web/sso-server-core-api-web.iml" filepath="$PROJECT_DIR$/sso-server-core-api-web/sso-server-core-api-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server-core-api-web-flow/sso-server-core-api-web-flow.iml" filepath="$PROJECT_DIR$/sso-server-core-api-web-flow/sso-server-core-api-web-flow.iml" />
     </modules>
   </component>
 </project>

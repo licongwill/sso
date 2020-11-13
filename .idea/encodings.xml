@@ -15,5 +15,6 @@
     <file url="file://$PROJECT_DIR$/sso-server-core-api-ticket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-validation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sso-server-core-api-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server-core-api-web-flow" charset="UTF-8" />
   </component>
 </project>

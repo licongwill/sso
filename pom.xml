@@ -17,7 +17,8 @@
     <module>sso-server-core-api-services</module>
     <module>sso-server-core-api-monitor</module>
     <module>sso-server-core-api-throttle</module>
-      <module>sso-server-core-api-web</module>
+    <module>sso-server-core-api-web</module>
+    <module>sso-server-core-api-web-flow</module>
   </modules>
 
   <groupId>com.lic</groupId>
