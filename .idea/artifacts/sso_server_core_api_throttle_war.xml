@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sso-server-core-api-throttle:war">
+    <output-path>$PROJECT_DIR$/sso-server-core-api-throttle/target</output-path>
+    <root id="archive" name="sso-server-core-api-thrrottle-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sso-server-core-api-throttle:war exploded" />
+    </root>
+  </artifact>
+</component>
