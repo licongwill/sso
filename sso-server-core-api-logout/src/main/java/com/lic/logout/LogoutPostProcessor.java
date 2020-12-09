@@ -1,6 +1,6 @@
 package com.lic.logout;
 
-import com.lic.sso.ticket.TicketGrantingTicket;
+import com.lic.ticket.TicketGrantingTicket;
 import org.springframework.core.Ordered;
 
 /**
