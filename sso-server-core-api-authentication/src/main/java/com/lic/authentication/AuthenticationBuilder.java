@@ -9,13 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 16:32
- */
 public interface AuthenticationBuilder extends Serializable {
     /**
      * get principal

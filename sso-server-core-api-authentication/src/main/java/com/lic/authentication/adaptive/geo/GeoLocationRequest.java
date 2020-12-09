@@ -3,11 +3,6 @@ package com.lic.authentication.adaptive.geo;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/17 14:07
- */
 public class GeoLocationRequest {
     /**
      * 纬度

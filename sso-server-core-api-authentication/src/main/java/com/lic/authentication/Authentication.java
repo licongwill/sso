@@ -8,13 +8,6 @@ import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Map;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 15:29
- */
 @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS)
 public interface Authentication extends Serializable {
     /**

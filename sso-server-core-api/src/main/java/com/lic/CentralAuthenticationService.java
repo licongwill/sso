@@ -17,13 +17,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/28 21:04
- */
 public interface CentralAuthenticationService {
     /**
      * sso namespace
