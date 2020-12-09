@@ -1,8 +1,8 @@
 package com.lic.support.event.authentication.adaptive;
 
-import com.lic.sso.authentication.Authentication;
-import com.lic.sso.event.AbstractSsoEvent;
-import com.lic.sso.services.RegisteredService;
+import com.lic.authentication.Authentication;
+import com.lic.services.RegisteredService;
+import com.lic.support.event.AbstractSsoEvent;
 
 /**
  * @author licong

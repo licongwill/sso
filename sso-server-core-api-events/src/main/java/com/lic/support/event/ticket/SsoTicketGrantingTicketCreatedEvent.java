@@ -1,7 +1,7 @@
 package com.lic.support.event.ticket;
 
-import com.lic.sso.event.AbstractSsoEvent;
-import com.lic.sso.ticket.TicketGrantingTicket;
+import com.lic.support.event.AbstractSsoEvent;
+import com.lic.ticket.TicketGrantingTicket;
 import lombok.ToString;
 
 /**

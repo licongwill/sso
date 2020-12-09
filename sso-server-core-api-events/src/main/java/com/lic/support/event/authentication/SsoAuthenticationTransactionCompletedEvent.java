@@ -1,7 +1,7 @@
 package com.lic.support.event.authentication;
 
-import com.lic.sso.authentication.Authentication;
-import com.lic.sso.event.AbstractSsoEvent;
+import com.lic.authentication.Authentication;
+import com.lic.support.event.AbstractSsoEvent;
 
 /**
  * @author licong

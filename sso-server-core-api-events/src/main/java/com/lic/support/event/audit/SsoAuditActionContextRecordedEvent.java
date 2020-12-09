@@ -1,6 +1,7 @@
 package com.lic.support.event.audit;
 
-import com.lic.sso.event.AbstractSsoEvent;
+
+import com.lic.support.event.AbstractSsoEvent;
 import org.apereo.inspektr.audit.AuditActionContext;
 
 /**

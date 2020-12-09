@@ -1,6 +1,6 @@
 package com.lic.support.event.config;
 
-import com.lic.sso.event.AbstractSsoEvent;
+import com.lic.support.event.AbstractSsoEvent;
 import lombok.Getter;
 import lombok.ToString;
 

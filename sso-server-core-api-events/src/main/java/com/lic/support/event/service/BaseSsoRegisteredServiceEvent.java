@@ -1,6 +1,6 @@
 package com.lic.support.event.service;
 
-import com.lic.sso.event.AbstractSsoEvent;
+import com.lic.support.event.AbstractSsoEvent;
 
 /**
  * @author licong

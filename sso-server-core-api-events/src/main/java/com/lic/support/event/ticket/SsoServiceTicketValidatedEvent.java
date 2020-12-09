@@ -1,8 +1,8 @@
 package com.lic.support.event.ticket;
 
-import com.lic.sso.event.AbstractSsoEvent;
-import com.lic.sso.ticket.ServiceTicket;
-import com.lic.sso.validation.Assertion;
+import com.lic.support.event.AbstractSsoEvent;
+import com.lic.ticket.ServiceTicket;
+import com.lic.validation.Assertion;
 import lombok.ToString;
 
 /**

@@ -1,7 +1,7 @@
 package com.lic.support.event.authentication.surrogate;
 
-import com.lic.sso.authentication.principal.Principal;
-import com.lic.sso.event.AbstractSsoEvent;
+import com.lic.authentication.principal.Principal;
+import com.lic.support.event.AbstractSsoEvent;
 import lombok.Getter;
 
 /**

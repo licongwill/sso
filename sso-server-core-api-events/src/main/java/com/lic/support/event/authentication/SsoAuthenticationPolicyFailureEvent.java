@@ -1,7 +1,7 @@
 package com.lic.support.event.authentication;
 
-import com.lic.sso.authentication.Authentication;
-import com.lic.sso.authentication.AuthenticationTransaction;
+import com.lic.authentication.Authentication;
+import com.lic.authentication.AuthenticationTransaction;
 import lombok.Getter;
 
 import java.util.Map;

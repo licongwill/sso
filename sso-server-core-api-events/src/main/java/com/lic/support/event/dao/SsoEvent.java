@@ -2,7 +2,8 @@ package com.lic.support.event.dao;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.lic.sso.authentication.adaptive.geo.GeoLocationRequest;
+import com.lic.authentication.adaptive.geo.GeoLocationRequest;
+import lombok.*;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.*;

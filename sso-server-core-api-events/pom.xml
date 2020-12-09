@@ -27,6 +27,20 @@
             <artifactId>sso-server-core-api-ticket</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apereo.inspektr</groupId>
+            <artifactId>inspektr-audit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-services</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lic</groupId>
+            <artifactId>sso-server-core-api-validation</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

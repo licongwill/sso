@@ -1,6 +1,6 @@
 package com.lic.support.event;
 
-import com.lic.sso.event.dao.SsoEvent;
+import com.lic.support.event.dao.SsoEvent;
 
 import java.time.ZonedDateTime;
 import java.util.Collection;

@@ -1,7 +1,7 @@
 package com.lic.support.event.authentication;
 
-import com.lic.sso.authentication.Credential;
-import com.lic.sso.event.AbstractSsoEvent;
+import com.lic.authentication.Credential;
+import com.lic.support.event.AbstractSsoEvent;
 import lombok.Getter;
 
 import java.util.Collection;

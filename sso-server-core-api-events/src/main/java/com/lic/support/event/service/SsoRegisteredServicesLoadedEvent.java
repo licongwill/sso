@@ -1,6 +1,6 @@
 package com.lic.support.event.service;
 
-import com.lic.sso.services.RegisteredService;
+import com.lic.services.RegisteredService;
 import lombok.ToString;
 
 import java.util.Collection;
