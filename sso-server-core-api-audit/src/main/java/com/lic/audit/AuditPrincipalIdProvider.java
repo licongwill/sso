@@ -1,6 +1,6 @@
 package com.lic.audit;
 
-import com.lic.sso.authentication.Authentication;
+import com.lic.authentication.Authentication;
 import org.springframework.core.Ordered;
 
 /**

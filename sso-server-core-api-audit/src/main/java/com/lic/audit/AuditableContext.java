@@ -1,11 +1,11 @@
 package com.lic.audit;
 
-import com.lic.sso.authentication.Authentication;
-import com.lic.sso.authentication.AuthenticationResult;
-import com.lic.sso.authentication.principal.Service;
-import com.lic.sso.services.RegisteredService;
-import com.lic.sso.ticket.ServiceTicket;
-import com.lic.sso.ticket.TicketGrantingTicket;
+import com.lic.authentication.Authentication;
+import com.lic.authentication.AuthenticationResult;
+import com.lic.authentication.principal.Service;
+import com.lic.services.RegisteredService;
+import com.lic.ticket.ServiceTicket;
+import com.lic.ticket.TicketGrantingTicket;
 import lombok.Builder;
 
 import java.util.LinkedHashMap;
