@@ -2,11 +2,6 @@ package com.lic.authentication;
 
 import java.io.Serializable;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/17 15:04
- */
 public interface MessageDescriptor extends Serializable {
 
     /**

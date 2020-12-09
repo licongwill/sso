@@ -5,13 +5,6 @@ import com.lic.authentication.principal.Service;
 
 import java.util.Collection;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/27 11:15
- */
 public interface AuthenticationSystemSupport {
 
     /**

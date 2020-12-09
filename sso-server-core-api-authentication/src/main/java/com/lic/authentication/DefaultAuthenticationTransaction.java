@@ -7,11 +7,6 @@ import lombok.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/27 20:37
- */
 @Getter
 @RequiredArgsConstructor
 @ToString

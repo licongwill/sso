@@ -4,11 +4,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import lombok.val;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/28 21:01
- */
 @ToString
 @RequiredArgsConstructor
 public abstract class RootCasException extends RuntimeException {

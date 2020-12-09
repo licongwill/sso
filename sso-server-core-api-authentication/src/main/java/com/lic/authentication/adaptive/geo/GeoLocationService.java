@@ -2,13 +2,7 @@ package com.lic.authentication.adaptive.geo;
 
 import java.net.InetAddress;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 14:50
- */
+
 public interface GeoLocationService {
     /**
      * 根据address定位位置

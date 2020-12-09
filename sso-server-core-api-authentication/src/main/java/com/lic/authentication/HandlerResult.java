@@ -5,13 +5,6 @@ import com.lic.authentication.principal.Principal;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 15:01
- */
 public interface HandlerResult extends Serializable {
     /**
      * get handlerName

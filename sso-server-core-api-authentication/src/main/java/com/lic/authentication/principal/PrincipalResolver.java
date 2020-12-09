@@ -7,13 +7,7 @@ import com.lic.authentication.Credential;
 
 import java.util.Optional;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 12:38
- */
+
 public interface PrincipalResolver {
     /**
      * 解析principal(使用任意策略，从credential中解析principal)

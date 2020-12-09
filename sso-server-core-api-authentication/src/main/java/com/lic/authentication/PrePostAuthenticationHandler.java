@@ -1,12 +1,5 @@
 package com.lic.authentication;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/28 20:47
- */
 @FunctionalInterface
 public interface PrePostAuthenticationHandler extends AuthenticationHandler {
 

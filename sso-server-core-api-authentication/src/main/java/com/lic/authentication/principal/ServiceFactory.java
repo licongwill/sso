@@ -2,13 +2,7 @@ package com.lic.authentication.principal;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 13:43
- */
+
 public interface ServiceFactory<T extends Service> {
     /**
      * 创建service,基于HttpServletRequest

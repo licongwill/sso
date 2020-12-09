@@ -3,12 +3,7 @@ package com.lic.authentication.principal;
 import java.io.Serializable;
 import java.util.Map;
 
-/**
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 12:26
- */
+
 public interface Principal extends Serializable {
     /**
      * @return 认证主体的唯一ID

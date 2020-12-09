@@ -3,11 +3,7 @@ package com.lic.authentication;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/17 14:57
- */
+
 public class AuthenticationException extends RuntimeException {
     private static final long serialVersionUID = -4481376826659790709L;
 

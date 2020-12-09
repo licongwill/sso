@@ -3,13 +3,7 @@ package com.lic.authentication;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.Ordered;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/26 19:55
- */
+
 @FunctionalInterface
 public interface AuthenticationEventExecutionPlanConfigurer extends Ordered {
     /**

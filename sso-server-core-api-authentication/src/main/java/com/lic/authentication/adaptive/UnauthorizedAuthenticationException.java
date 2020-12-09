@@ -7,11 +7,7 @@ import com.lic.authentication.AuthenticationHandlerExecutionResult;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/17 15:25
- */
+
 public class UnauthorizedAuthenticationException extends AuthenticationException {
 
     public UnauthorizedAuthenticationException(final String message, final Map<String, Throwable> handlerErrors) {

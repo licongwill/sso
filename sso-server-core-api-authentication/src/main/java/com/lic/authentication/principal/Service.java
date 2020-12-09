@@ -7,13 +7,7 @@ import org.slf4j.LoggerFactory;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/17 12:32
- */
+
 public interface Service extends Principal {
     Logger LOGGER = LoggerFactory.getLogger(Service.class);
 

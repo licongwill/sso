@@ -5,11 +5,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.Set;
 
-/**
- * @author licong
- * @version 1.0
- * @date 2020/10/17 14:26
- */
+
 public class GeoLocationResponse {
     private Set<String> addresses = Sets.newConcurrentHashSet();
 
