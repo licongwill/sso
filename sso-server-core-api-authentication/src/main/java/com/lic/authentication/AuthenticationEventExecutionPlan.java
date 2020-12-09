@@ -9,47 +9,20 @@ import java.util.Map;
 import java.util.Set;
 
 public interface AuthenticationEventExecutionPlan {
-    /**
-     * 注册authenticationHandler
-     * @param authenticationHandler
-     */
+
     void registerAuthenticationHandler(AuthenticationHandler authenticationHandler);
 
-    /**
-     * 注册原数据赋值
-     * @param authenticationMetaDataPopulator
-     */
     void registerAuthenticationMetadataPopulator(AuthenticationMetaDataPopulator authenticationMetaDataPopulator);
 
-    /**
-     * 注册 authentication post processor
-     * @param authenticationPostProcessor
-     */
     void registerAuthenticationPostProcessor(AuthenticationPostProcessor authenticationPostProcessor);
 
-    /**
-     * 注册 authentication pre processor
-     * @param authenticationPreProcessor
-     */
     void registerAuthenticationPreProcessor(AuthenticationPreProcessor authenticationPreProcessor);
 
-    /**
-     * 注册 metadata populators
-     * @param populators
-     */
     void registerAuthenticationMetadataPopulators(Collection<AuthenticationMetaDataPopulator> populators);
 
-    /**
-     * 注册 authentication policy
-     * @param authenticationPolicy
-     */
     void registerAuthenticationPolicy(AuthenticationPolicy authenticationPolicy);
 
 
-    /**
-     * 注册 handler resolver
-     * @param handlerResolver
-     */
     void registerAuthenticationHandlerResolver(AuthenticationHandlerResolver handlerResolver);
 
     /**

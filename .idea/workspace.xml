@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c1e066-6212-42da-9c3a-da6fb0b019e5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/sso-server-core-api-audit/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java" afterPath="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Authentication.java" afterPath="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Authentication.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionFailureEvent.java" afterPath="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionFailureEvent.java" />
-      <change beforePath="$PROJECT_DIR$/sso-server-core-api/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java" afterPath="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java" />
+      <change beforePath="$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml" afterPath="$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,107 +41,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AuditableExecutionResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java">
+      <file leaf-file-name="RootCasException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/RootCasException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuditableContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java">
+      <file leaf-file-name="AuthenticationEventExecutionPlan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuditableExecution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecution.java">
+      <file leaf-file-name="GeoLocationRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/geo/GeoLocationRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-363">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationHandlerExecutionResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandlerExecutionResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuditPrincipalIdProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuditTrailConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuditTrailExecutionPlan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuditTrailExecutionPlanConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlanConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuditTrailRecordResolutionPlan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuditTrailRecordResolutionPlanConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlanConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseAuditableExecution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/BaseAuditableExecution.java">
+      <file leaf-file-name="AuthenticationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sso-api.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-api.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,6 +175,8 @@
       <find>butes</find>
       <find>@Builder</find>
       <find>properties</find>
+      <find>Service</find>
+      <find>@</find>
     </findStrings>
     <dirStrings>
       <dir>D:\lic\sso\sso-api\src\main\java\com\lic\sso\event\authentication\adaptive</dir>
@@ -208,57 +201,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationAttributeReleaseProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationExceptionsProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationPolicyProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/AuthenticationProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/CouchbasePrincipalAttributesProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GroovyAuthenticationPolicyProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GroovyPrincipalAttributesProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/GrouperPrincipalAttributesProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/HttpClientProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-configuration-model/src/main/java/com/lic/configuration/model/core/authentication/JdbcPrincipalAttributesProperties.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutRequest.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutUrl.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutServiceLogoutUrlBuilder.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutServiceMessageHandler.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutExecutionPlan.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutExecutionPlanConfigurer.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/LogoutManager.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderFactoryBean.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderResolver.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationProviderSelector.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTrigger.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-mfa/src/main/java/com/lic/authentication/MultifactorAuthenticationTriggerSelectionStrategy.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-monitor/src/main/java/com/lic/monitor/CacheStatistics.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/CasProtocolConstants.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/SsoProtocolConstants.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/src/main/java/com/lic/web/support/InMemoryThrottledSubmissionHandlerInterceptor.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-thrrottle/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-validation/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/AuthenticationAttributeReleasePolicy.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolValidationSpecification.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizer.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web/src/main/java/com/lic/web/support/ArgumentExtractor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowConfigurer.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowConstants.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowExecutionPlan.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowExecutionPlanConfigurer.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/SingleSignOnParticipationStrategy.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionFailureEvent.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Authentication.java" />
-        <option value="$PROJECT_DIR$/sso-server-core-api/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-audit/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java" />
         <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailConstants.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlan.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlanConfigurer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlan.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlanConfigurer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/BaseAuditableExecution.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/geo/GeoLocationResponse.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/geo/GeoLocationService.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/AdaptiveAuthenticationPolicy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/UnauthorizedAuthenticationException.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/handler/PrincipalNameTransformer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PersistentIdGenerator.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Principal.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalAttributesRepository.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalFactory.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalResolver.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Response.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/ResponseBuilder.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Service.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/WebApplicationService.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/support/SsoAttributeEncoder.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlanConfigurer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationException.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationManager.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationPasswordPolicyHandlingStrategy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResult.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResultBuilder.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionPlan.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionStrategy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionStrategyConfigurer.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationSystemSupport.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationTransactionManager.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/ContextualAuthenticationPolicy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/ContextualAuthenticationPolicyFactory.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Credential.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/CredentialMetaData.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/DefaultAuthenticationTransaction.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/HandlerResult.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/MessageDescriptor.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrePostAuthenticationHandler.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrincipalElectionStrategy.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrincipalException.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/RememberMeCredential.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/RootCasException.java" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server-core-api-audit/pom.xml" />
       </list>
     </option>
   </component>
@@ -285,7 +278,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sso-server-core-api-authentication" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sso-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sso-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -353,8 +351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,24 +359,30 @@
               <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sso-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server-core-api-throttle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="AuditTrailManagementAspect&#9;PSI&#9;JAVA://org.apereo.inspektr.audit.AuditTrailManagementAspect&#10;RegisteredServiceProperties&#9;PSI&#9;JAVA://com.lic.services.RegisteredServiceProperty.RegisteredServiceProperties&#10;URL&#9;PSI&#9;JAVA://java.net.URL&#10;DefaultAuthenticationTransaction&#9;PSI&#9;JAVA://com.lic.sso.authentication.DefaultAuthenticationTransaction&#10;AuthenticationPreProcessor&#9;FILE&#9;file://D:/lic/sso/sso-api/src/main/java/com/lic/authentication/AuthenticationPreProcessor.java&#10;AuthenticationPostProcessor&#9;PSI&#9;JAVA://com.lic.authentication.AuthenticationPostProcessor" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SearchEverywhereHistoryKey" value="AuthenticationHandler&#9;FILE&#9;file://D:/lic/sso-api/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandler.java&#10;AuthenticationHandlerExecutionResult&#9;FILE&#9;file://D:/lic/sso-api/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandlerExecutionResult.java&#10;AuthenticationEventExecutionPlan&#9;FILE&#9;file://D:/lic/sso-api/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java&#10;GeoLocationResponse&#9;PSI&#9;JAVA://com.lic.authentication.adaptive.geo.GeoLocationResponse&#10;SsoAttributeEncoder&#9;PSI&#9;JAVA://com.lic.authentication.support.SsoAttributeEncoder&#10;GeoLocationRequest&#9;PSI&#9;JAVA://com.lic.authentication.adaptive.geo.GeoLocationRequest&#10;AdaptiveAuthenticationPolicy&#9;FILE&#9;file://D:/lic/sso-api/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/AdaptiveAuthenticationPolicy.java&#10;AuditTrailManagementAspect&#9;PSI&#9;JAVA://org.apereo.inspektr.audit.AuditTrailManagementAspect&#10;RegisteredServiceProperties&#9;PSI&#9;JAVA://com.lic.services.RegisteredServiceProperty.RegisteredServiceProperties&#10;URL&#9;PSI&#9;JAVA://java.net.URL&#10;DefaultAuthenticationTransaction&#9;PSI&#9;JAVA://com.lic.sso.authentication.DefaultAuthenticationTransaction&#10;AuthenticationPreProcessor&#9;FILE&#9;file://D:/lic/sso/sso-api/src/main/java/com/lic/authentication/AuthenticationPreProcessor.java&#10;AuthenticationPostProcessor&#9;PSI&#9;JAVA://com.lic.authentication.AuthenticationPostProcessor" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -551,7 +554,8 @@
       <workItem from="1605592904020" duration="1207000" />
       <workItem from="1605857763316" duration="796000" />
       <workItem from="1606377400933" duration="1596000" />
-      <workItem from="1607482234471" duration="395000" />
+      <workItem from="1607482234471" duration="4527000" />
+      <workItem from="1607497367729" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="add Authentication">
       <created>1602926109720</created>
@@ -819,11 +823,60 @@
       <option name="project" value="LOCAL" />
       <updated>1605254053420</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="修改sso-server-core-api-audit">
+      <created>1607482665001</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607482665001</updated>
+    </task>
+    <task id="LOCAL-00040" summary="修改sso-server-core-api-audit">
+      <created>1607483011524</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607483011524</updated>
+    </task>
+    <task id="LOCAL-00041" summary="修改sso-server-core-api-audit">
+      <created>1607483720552</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607483720552</updated>
+    </task>
+    <task id="LOCAL-00042" summary="修改sso-server-core-api-logout">
+      <created>1607483823071</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607483823071</updated>
+    </task>
+    <task id="LOCAL-00043" summary="修改sso-server-core-api-audit">
+      <created>1607496731578</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607496731578</updated>
+    </task>
+    <task id="LOCAL-00044" summary="修改sso-server-core-api-audit">
+      <created>1607496813675</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607496813675</updated>
+    </task>
+    <task id="LOCAL-00045" summary="修改sso-server-core-api-authentication">
+      <created>1607497175605</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607497175605</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116186000" />
+    <option name="totallyTimeSpent" value="120853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -835,14 +888,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27145922" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48360655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34227467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.347103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -866,7 +919,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27145922" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -882,11 +935,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4841735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48360655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34227467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.347103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -921,7 +974,10 @@
     <MESSAGE value="新增sso-server-core-api-validation" />
     <MESSAGE value="新增sso-server-core-api-web-flow" />
     <MESSAGE value="修改workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改workspace.xml" />
+    <MESSAGE value="修改sso-server-core-api-logout" />
+    <MESSAGE value="修改sso-server-core-api-audit" />
+    <MESSAGE value="修改sso-server-core-api-authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改sso-server-core-api-authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -930,24 +986,163 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalAttributesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/PrincipalResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/ResponseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/WebApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/support/SsoAttributeEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationAccountStateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlanConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandlerResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationMetaDataPopulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationPasswordPolicyHandlingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResultBuilder.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -955,363 +1150,246 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationResultBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationServiceSelectionStrategyConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationSystemSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/ContextualAuthenticationPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/ContextualAuthenticationPolicyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/Credential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/CredentialMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/DefaultAuthenticationTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/HandlerResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/MessageDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrePostAuthenticationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PreventedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrincipalElectionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/PrincipalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/RememberMeCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/RootCasException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoProxyGrantingTicketCreatedEvent.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationEventExecutionPlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/ticket/SsoProxyTicketGrantedEvent.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/adaptive/geo/GeoLocationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-150">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationPolicyFailureEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationPrincipalResolvedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionCompletedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionStartedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/authentication/SsoAuthenticationTransactionFailureEvent.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandlerExecutionResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-events/src/main/java/com/lic/support/event/audit/SsoAuditActionContextRecordedEvent.java">
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/validation/ValidationResponseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/ServiceTicketFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/ServiceTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-885">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/TicketGrantingTicketFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-ticket/src/main/java/com/lic/ticket/TicketGrantingTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/Assertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/SsoProtocolAttributesRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-validation/src/main/java/com/lic/validation/ServiceTicketValidationAuthorizersExecutionPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="213" column="7" lean-forward="false" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowExecutionPlanConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/SingleSignOnParticipationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-web-flow/src/main/java/com/lic/web/flow/CasWebflowExecutionPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1346">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/ServiceRegistryExecutionPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/UnauthorizedProxyingException.java">
+    <entry file="file://$PROJECT_DIR$/sso-api.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
-          <caret line="168" column="56" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-services/src/main/java/com/lic/services/RegisteredServiceAccessStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-protocol/src/main/java/com/lic/SsoProtocolConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/principal/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-authentication/src/main/java/com/lic/authentication/AuthenticationMetaDataPopulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-logout/src/main/java/com/lic/logout/slo/SingleLogoutMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api/src/main/java/com/lic/CentralAuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="90" selection-end-column="19" />
+        <state relative-caret-position="642">
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="-363">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server-core-api-throttle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecutionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditableExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditPrincipalIdProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailExecutionPlanConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/AuditTrailRecordResolutionPlanConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server-core-api-audit/src/main/java/com/lic/audit/BaseAuditableExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1370,7 +1448,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sso-server-core-api-ticket</last-edited>
+          <last-edited>sso-server-core-api-authentication</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
