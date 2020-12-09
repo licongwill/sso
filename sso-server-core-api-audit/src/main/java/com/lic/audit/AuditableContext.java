@@ -12,13 +12,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/10/30 11:38
- */
 @Builder
 public class AuditableContext {
     /**

@@ -7,13 +7,6 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/11/6 11:19
- */
 public interface AuditTrailExecutionPlan {
     /**
      * 注册auditTrailManager

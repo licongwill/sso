@@ -5,13 +5,6 @@ import org.apereo.inspektr.audit.spi.AuditResourceResolver;
 
 import java.util.Map;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/11/6 11:33
- */
 public interface AuditTrailRecordResolutionPlan {
     /**
      * 注册auditResourceResolver

@@ -1,12 +1,5 @@
 package com.lic.audit;
 
-/**
- * TODO
- *
- * @author licong
- * @version 1.0
- * @date 2020/11/6 11:12
- */
 public interface AuditTrailConstants {
 
     String AUDIT_ACTION_POSTFIX_SUCCESS = "_SUCCESS";
