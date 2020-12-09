@@ -1,7 +1,8 @@
 package com.lic.authentication.adaptive;
 
-import com.lic.sso.authentication.AuthenticationException;
-import com.lic.sso.authentication.AuthenticationHandlerExecutionResult;
+
+import com.lic.authentication.AuthenticationException;
+import com.lic.authentication.AuthenticationHandlerExecutionResult;
 
 import java.util.HashMap;
 import java.util.Map;

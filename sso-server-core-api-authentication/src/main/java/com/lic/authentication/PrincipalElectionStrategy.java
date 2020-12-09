@@ -1,6 +1,6 @@
 package com.lic.authentication;
 
-import com.lic.sso.authentication.principal.Principal;
+import com.lic.authentication.principal.Principal;
 
 import java.io.Serializable;
 import java.util.Collection;
